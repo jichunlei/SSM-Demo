@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!--改变mybatis一些基本设置-->
+    <settings>
+        <!--设置mybatis字段下划线格式和驼峰格式的自动转换-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--开启全局缓存开关（默认开启）-->
+        <setting name="cacheEnabled" value="true"/>
+        <!--配置mybatis使用log4j-->
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+</configuration>
